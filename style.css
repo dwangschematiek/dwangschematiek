@@ -9,12 +9,12 @@ p {
 	line-height: 2;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
   margin-top: 2em;
   margin-bottom: 1em;
 }
 
-p,ul,ol {
+p, ul, ol {
   margin-bottom: 2em;
   color: #2f2f2f;
 }
