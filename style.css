@@ -114,8 +114,13 @@ img {
 	image-rendering: pixelated;
 }
 
-img.author {
+img.author, .centered{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+img.between {
+	margin-top: 2em;
+	max-width: 90%;
 }
