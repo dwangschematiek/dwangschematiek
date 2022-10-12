@@ -10,13 +10,19 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 2em;
-  margin-bottom: 1em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 2em;
 }
 
 p, ul, ol {
-  margin-bottom: 2em;
-  color: #2f2f2f;
+	margin-bottom: 2em;
+	color: #2f2f2f;
 }
 
 a {
@@ -31,6 +37,19 @@ a:visited {
 	color: #bb2683;
 }
 
+a:hover {
+	color: #85a2dd;
+}
+
+nav h1 a, nav h1 a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+nav h1 a:hover {
+	color: #85a2dd;
+}
+
 nav ul {
 	padding-left: 0;
 }
@@ -40,6 +59,18 @@ nav ul li {
 	display: inline;
 }
 
+main {
+	width: 100%;
+}
+
+nav {
+	border-bottom: 1px solid #e247a7;
+	font-family: sans-serif;
+}
+
 footer {
 	border-top: 1px solid #e247a7;
+
+	text-align: right;
 }
+
