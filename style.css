@@ -2,7 +2,10 @@ html {
 	max-width: 34rem;
 	padding: 1rem;
 	margin: auto;
+}
 
+body {
+	margin: 0;
 }
 
 p {
@@ -19,6 +22,22 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 2em;
 }
+
+li {
+	padding-bottom: 1em;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 2em;
+}
+
+ul > li::before {
+	content: "—";
+	margin-left: -2em;
+	padding-right: 1em;
+}
+
 
 p, ul, ol {
 	margin-bottom: 2em;
@@ -57,6 +76,11 @@ nav ul {
 nav ul li {
 	list-style: none;
 	display: inline;
+	padding-right: .5em;
+}
+
+nav ul li::before {
+	display: none;
 }
 
 main {
