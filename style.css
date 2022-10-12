@@ -1,0 +1,45 @@
+html {
+	max-width: 28rem;
+	padding: 1rem;
+	margin: auto;
+
+}
+
+p {
+	line-height: 2;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+p,ul,ol {
+  margin-bottom: 2em;
+  color: #2f2f2f;
+}
+
+a {
+	color: #e247a7;
+}
+
+a:focus {
+	color: #cc5ba1;
+}
+
+a:visited {
+	color: #bb2683;
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+}
+
+footer {
+	border-top: 1px solid #e247a7;
+}
