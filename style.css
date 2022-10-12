@@ -110,3 +110,12 @@ footer img {
 	height: 2em;
 }
 
+img {
+	image-rendering: pixelated;
+}
+
+img.author {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
