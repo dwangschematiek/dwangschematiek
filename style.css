@@ -101,6 +101,12 @@ nav {
 footer {
 	border-top: 1px solid #e247a7;
 
-	text-align: right;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer img {
+	padding-top: 1em;
+	height: 2em;
 }
 
