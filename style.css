@@ -87,6 +87,12 @@ main {
 	width: 100%;
 }
 
+.meta {
+	font-family: sans-serif;
+	font-size: .75em;
+	color: grey;
+}
+
 nav {
 	border-bottom: 1px solid #e247a7;
 	font-family: sans-serif;
