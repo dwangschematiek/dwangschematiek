@@ -124,3 +124,16 @@ img.between {
 	margin-top: 2em;
 	max-width: 90%;
 }
+
+figure {
+	margin: 1em 2em;
+	text-align: center;
+}
+
+figure img {
+	max-width: 100%;
+}
+
+figcaption {
+	font-style: italic;
+}
