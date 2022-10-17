@@ -1,7 +1,19 @@
+:root {
+	--color-accent: #e247a7;
+	--color-accent-focus: #c24d93;
+	--color-accent-hover: #85a2dd;
+	--color-text-heading: black;
+	--color-text-body: #2f2f2f;
+	--color-background: white;
+}
+
+
 html {
 	max-width: 34rem;
 	padding: 1rem;
 	margin: auto;
+
+	background-color: var(--color-background);
 }
 
 body {
@@ -21,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 1em;
 
 	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+	color: var(--color-text-heading);
 }
 
 h1 {
@@ -45,28 +58,28 @@ ul > li::before {
 
 p, ul, ol {
 	margin-bottom: 2em;
-	color: #2f2f2f;
+	color: var(--color-text-body);
 }
 
 a {
-	color: #e247a7;
+	color: var(--color-accent);
 }
 
 a:focus {
-	color: #cc5ba1;
+	color: var(--color-accent-focus);
 }
 
 a:hover {
-	color: #85a2dd;
+	color: var(--color-accent-hover);
 }
 
 nav h1 a, nav h1 a:visited {
 	text-decoration: none;
-	color: black;
+	color: var(--color-text-heading);
 }
 
 nav h1 a:hover {
-	color: #85a2dd;
+	color: var(--color-accent-hover);
 }
 
 nav ul {
@@ -94,12 +107,12 @@ main {
 }
 
 nav {
-	border-bottom: 1px solid #e247a7;
+	border-bottom: 1px solid var(--color-accent);
 	font-family: "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 footer {
-	border-top: 1px solid #e247a7;
+	border-top: 1px solid var(--color-accent);
 
 	display: flex;
 	justify-content: space-between;
