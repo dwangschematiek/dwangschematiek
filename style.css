@@ -7,6 +7,16 @@
 	--color-background: white;
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-accent: #e247a7;
+		--color-accent-focus: #e782be;
+		--color-accent-hover: #7a92c2;
+		--color-text-heading: #d1d1d1;
+		--color-text-body: #dfdfdf;
+		--color-background: black;
+	}
+}
 
 html {
 	max-width: 34rem;
