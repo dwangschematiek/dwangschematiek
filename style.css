@@ -160,3 +160,7 @@ figure img {
 figcaption {
 	font-style: italic;
 }
+
+.error-page {
+	text-align: center;
+}
