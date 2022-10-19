@@ -100,7 +100,7 @@ nav ul {
 nav ul li {
 	list-style: none;
 	display: inline;
-	padding-right: .5em;
+	padding-right: 0.5em;
 }
 
 nav ul li::before {
@@ -113,7 +113,7 @@ main {
 
 .meta {
 	font-family: "Helvetica Neue", "Helvetica", sans-serif;
-	font-size: .75em;
+	font-size: 0.75em;
 	color: var(--color-text-alt);
 }
 
@@ -170,6 +170,6 @@ a[href^="http"]:after {
 	display: inline-block;
 	color: var(--color-text-alt);
 	content: "\1F86D";
-	padding-left: .25em;
+	padding-left: 0.25em;
 	text-decoration: none;
 }
