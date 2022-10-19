@@ -4,6 +4,7 @@
 	--color-accent-hover: #85a2dd;
 	--color-text-heading: black;
 	--color-text-body: #2f2f2f;
+	--color-text-alt: grey;
 	--color-background: white;
 }
 
@@ -113,7 +114,7 @@ main {
 .meta {
 	font-family: "Helvetica Neue", "Helvetica", sans-serif;
 	font-size: .75em;
-	color: grey;
+	color: var(--color-text-alt);
 }
 
 nav {
