@@ -165,3 +165,11 @@ figcaption {
 .error-page {
 	text-align: center;
 }
+
+a[href^="http"]:after {
+	display: inline-block;
+	color: var(--color-text-alt);
+	content: "\1F86D";
+	padding-left: .25em;
+	text-decoration: none;
+}
