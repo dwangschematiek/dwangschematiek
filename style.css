@@ -35,7 +35,7 @@ p {
 	line-height: 2;
 }
 
-p {
+p, li {
 	font-family: "Times New Roman", "Times", serif;
 }
 
