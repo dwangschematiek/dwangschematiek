@@ -169,7 +169,7 @@ figcaption {
 a[href^="http"]:after {
 	display: inline-block;
 	color: var(--color-text-alt);
-	content: "\1F86D";
+	content: "\2924";
 	padding-left: 0.25em;
 	font-size: 0.75rem;
 	text-decoration: none;
