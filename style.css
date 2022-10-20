@@ -160,6 +160,7 @@ figure img {
 
 figcaption {
 	font-style: italic;
+	color: var(--color-text-body);
 }
 
 .error-page {
