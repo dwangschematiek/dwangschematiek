@@ -189,5 +189,7 @@ a[href^="http"]:after {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: baseline;
+	align-items: last baseline;
+
+	text-align: center;
 }
