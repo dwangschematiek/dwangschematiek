@@ -175,3 +175,10 @@ a[href^="http"]:after {
 	font-size: 0.75rem;
 	text-decoration: none;
 }
+
+#webring {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+}
