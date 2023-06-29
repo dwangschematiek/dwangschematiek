@@ -191,5 +191,6 @@ a[href^="http"]:after {
 	justify-content: space-between;
 	align-items: last baseline;
 
+	font-size: 0.9em;
 	text-align: center;
 }
