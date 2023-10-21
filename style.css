@@ -35,7 +35,7 @@ p {
 	line-height: 2;
 }
 
-p, li {
+p, li, figcaption {
 	font-family: "Times New Roman", "Times", serif;
 }
 
