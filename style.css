@@ -51,6 +51,19 @@ h1 {
 	font-size: 2em;
 }
 
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.3em;
+	font-style: italic;
+}
+
+h4 {
+	font-size: 1.1em;
+}
+
 li {
 	padding-bottom: 1em;
 }
@@ -109,6 +122,7 @@ nav ul li::before {
 
 main {
 	width: 100%;
+	margin-bottom: 3em;
 }
 
 .meta {
