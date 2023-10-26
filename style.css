@@ -35,8 +35,17 @@ p {
 	line-height: 2;
 }
 
-p, li, figcaption {
+p, li, figcaption, blockquote, section a {
 	font-family: "Times New Roman", "Times", serif;
+}
+
+blockquote {
+	line-height: 1.52;
+
+	margin: 1em 3em 1em 0;
+	padding-left: 3em;
+
+	border-left: solid var(--color-accent) 1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -216,4 +225,40 @@ a[href^="http"]:after {
 
 	font-size: 0.9em;
 	text-align: center;
+}
+
+#wwcg .meta .time + .location:not(:empty):before {
+	content: "—";
+	display: inline-block;
+	padding: 0 0.5em;
+}
+
+#wwcg h3 {
+	text-align: center;
+	color: var(--color-accent);
+}
+
+#wwcg section {
+	padding-bottom: 2em;
+}
+
+#wwcg section a {
+	font-size: 1em;
+}
+
+#wwcg .expected, #wwcg .past {
+	opacity: 0.75;
+}
+
+#wwcg .expected h4, #wwcg .past h4 {
+	color: var(--color-text-alt)
+}
+
+#wwcg .expected .time:before {
+	display: inline-block;
+	color: var(--color-accent-hover);
+	content: "{expected}";
+	padding-right: 0.25em;
+
+	font-weight: 200;
 }
