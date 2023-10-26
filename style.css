@@ -89,7 +89,7 @@ ul > li::before {
 }
 
 
-p, ul, ol {
+p, ul, ol, blockquote {
 	margin-bottom: 2em;
 	color: var(--color-text-body);
 }
